@@ -48,7 +48,7 @@ Consistent with other Office 365 services, Cortana enterprise services are secur
 
 ## How does Microsoft store, retain, process, and use Customer Data in Cortana?
 
-The table below describes the data handling for Cortana enterprise services.
+The table below describes the data handling for Cortana enterprise services. /ga
 
 |**Name**|**Description**|
 |:-----|:-----|
