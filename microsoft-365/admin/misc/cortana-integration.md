@@ -76,6 +76,26 @@ Beginning with Windows 10, version 2004, Cortana is a Universal Windows Platform
 
 [Learn more about Cortana in Windows 10](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
 
+### Cortana voice assistance in Teams
+
+Cortana voice assistance in the Teams mobile app helps users simply perform communication, collaboration, and meeting-related tasks using spoken natural language. Users can speak to Cortana by clicking on the microphone button located in the upper right of the Teams mobile app. They can connect with someone while on the go by making a voice query such as “call Megan” or “send a message to my next meeting.” Users can also join meetings by saying “join my next meeting.” Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products).
+
+**Admin control**
+
+Admins can control who in their tenant can use Cortana voice assistance in Teams via a policy (TeamsCortanaPolicy). This policy can be set at either a user account level or tenant level. Admins can also use the CortanaVoiceInvocationMode field within this policy control to determine whether Cortana is enabled with push button invocation only, or with wake word invocation as well (applicable to devices that support it). Note that at the time of the initial release for Microsoft 365 Enterprise users in the US in English, the Teams mobile app will not support wake word activation, but it will be supported in the future. 
+
+**User control**
+
+Individual users can try out Cortana voice assistance in the Teams mobile app by clicking on the mic button. They can also control whether Cortana in Teams is enabled for their device via a setting in the Teams mobile app: 
+
+1. Open the Teams mobile app.
+
+2. Go to **Settings**.
+
+3. Select **Cortana**.
+
+4. Move the toggle to on or off, depending on whether you want Cortana voice assistance on this device.
+
 ### Play My Emails
 
 Play My Emails (as connected to through Outlook mobile) is a voice-driven, hands-free experience for users to listen to new messages in their Focused Inbox and changes to their day via the speakers on their phone, headphones, or connected audio device. Users can ask Cortana to read their recent emails aloud, and ask Cortana to take actions such as flag, archive, delete, and skip messages. This feature is especially helpful to catch up on your email while commuting, multitasking, or on the go. When the user talks to Cortana in Play My Emails, the speech audio request goes directly to Cortana enterprise services. A text to speech readout of the user's email is processed inside the Office 365 cloud. During this process, no Office 365 data is processed on the user's mobile device and no email data is saved. A transcript of spoken commands (i.e. "mark as read," "next," "flag," etc.) may be retained in accordance with the Data Protection Terms in the Microsoft [Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products).
